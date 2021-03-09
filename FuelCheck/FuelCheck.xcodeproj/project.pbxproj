@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B04A28A725F79ED30039E509 /* FuelCheckApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04A28A625F79ED30039E509 /* FuelCheckApp.swift */; };
+		B04A28A925F79ED30039E509 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04A28A825F79ED30039E509 /* ContentView.swift */; };
+		B04A28AB25F79ED50039E509 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B04A28AA25F79ED50039E509 /* Assets.xcassets */; };
+		B04A28AE25F79ED50039E509 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B04A28AD25F79ED50039E509 /* Preview Assets.xcassets */; };
+		B04A28B925F79ED50039E509 /* FuelCheckTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04A28B825F79ED50039E509 /* FuelCheckTests.swift */; };
+		B04A28C425F79ED50039E509 /* FuelCheckUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04A28C325F79ED50039E509 /* FuelCheckUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B04A28B525F79ED50039E509 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B04A289B25F79ED30039E509 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B04A28A225F79ED30039E509;
+			remoteInfo = FuelCheck;
+		};
+		B04A28C025F79ED50039E509 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B04A289B25F79ED30039E509 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B04A28A225F79ED30039E509;
+			remoteInfo = FuelCheck;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B04A28A325F79ED30039E509 /* FuelCheck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FuelCheck.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B04A28A625F79ED30039E509 /* FuelCheckApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuelCheckApp.swift; sourceTree = "<group>"; };
+		B04A28A825F79ED30039E509 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B04A28AA25F79ED50039E509 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B04A28AD25F79ED50039E509 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B04A28AF25F79ED50039E509 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B04A28B425F79ED50039E509 /* FuelCheckTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FuelCheckTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B04A28B825F79ED50039E509 /* FuelCheckTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuelCheckTests.swift; sourceTree = "<group>"; };
+		B04A28BA25F79ED50039E509 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B04A28BF25F79ED50039E509 /* FuelCheckUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FuelCheckUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B04A28C325F79ED50039E509 /* FuelCheckUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuelCheckUITests.swift; sourceTree = "<group>"; };
+		B04A28C525F79ED50039E509 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B04A28A025F79ED30039E509 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B04A28B125F79ED50039E509 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B04A28BC25F79ED50039E509 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B04A289A25F79ED30039E509 = {
+			isa = PBXGroup;
+			children = (
+				B04A28A525F79ED30039E509 /* FuelCheck */,
+				B04A28B725F79ED50039E509 /* FuelCheckTests */,
+				B04A28C225F79ED50039E509 /* FuelCheckUITests */,
+				B04A28A425F79ED30039E509 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B04A28A425F79ED30039E509 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B04A28A325F79ED30039E509 /* FuelCheck.app */,
+				B04A28B425F79ED50039E509 /* FuelCheckTests.xctest */,
+				B04A28BF25F79ED50039E509 /* FuelCheckUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B04A28A525F79ED30039E509 /* FuelCheck */ = {
+			isa = PBXGroup;
+			children = (
+				B04A28A625F79ED30039E509 /* FuelCheckApp.swift */,
+				B04A28A825F79ED30039E509 /* ContentView.swift */,
+				B04A28AA25F79ED50039E509 /* Assets.xcassets */,
+				B04A28AF25F79ED50039E509 /* Info.plist */,
+				B04A28AC25F79ED50039E509 /* Preview Content */,
+			);
+			path = FuelCheck;
+			sourceTree = "<group>";
+		};
+		B04A28AC25F79ED50039E509 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B04A28AD25F79ED50039E509 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B04A28B725F79ED50039E509 /* FuelCheckTests */ = {
+			isa = PBXGroup;
+			children = (
+				B04A28B825F79ED50039E509 /* FuelCheckTests.swift */,
+				B04A28BA25F79ED50039E509 /* Info.plist */,
+			);
+			path = FuelCheckTests;
+			sourceTree = "<group>";
+		};
+		B04A28C225F79ED50039E509 /* FuelCheckUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B04A28C325F79ED50039E509 /* FuelCheckUITests.swift */,
+				B04A28C525F79ED50039E509 /* Info.plist */,
+			);
+			path = FuelCheckUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B04A28A225F79ED30039E509 /* FuelCheck */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B04A28C825F79ED50039E509 /* Build configuration list for PBXNativeTarget "FuelCheck" */;
+			buildPhases = (
+				B04A289F25F79ED30039E509 /* Sources */,
+				B04A28A025F79ED30039E509 /* Frameworks */,
+				B04A28A125F79ED30039E509 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FuelCheck;
+			productName = FuelCheck;
+			productReference = B04A28A325F79ED30039E509 /* FuelCheck.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B04A28B325F79ED50039E509 /* FuelCheckTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B04A28CB25F79ED50039E509 /* Build configuration list for PBXNativeTarget "FuelCheckTests" */;
+			buildPhases = (
+				B04A28B025F79ED50039E509 /* Sources */,
+				B04A28B125F79ED50039E509 /* Frameworks */,
+				B04A28B225F79ED50039E509 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B04A28B625F79ED50039E509 /* PBXTargetDependency */,
+			);
+			name = FuelCheckTests;
+			productName = FuelCheckTests;
+			productReference = B04A28B425F79ED50039E509 /* FuelCheckTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B04A28BE25F79ED50039E509 /* FuelCheckUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B04A28CE25F79ED50039E509 /* Build configuration list for PBXNativeTarget "FuelCheckUITests" */;
+			buildPhases = (
+				B04A28BB25F79ED50039E509 /* Sources */,
+				B04A28BC25F79ED50039E509 /* Frameworks */,
+				B04A28BD25F79ED50039E509 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B04A28C125F79ED50039E509 /* PBXTargetDependency */,
+			);
+			name = FuelCheckUITests;
+			productName = FuelCheckUITests;
+			productReference = B04A28BF25F79ED50039E509 /* FuelCheckUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B04A289B25F79ED30039E509 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					B04A28A225F79ED30039E509 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					B04A28B325F79ED50039E509 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = B04A28A225F79ED30039E509;
+					};
+					B04A28BE25F79ED50039E509 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = B04A28A225F79ED30039E509;
+					};
+				};
+			};
+			buildConfigurationList = B04A289E25F79ED30039E509 /* Build configuration list for PBXProject "FuelCheck" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B04A289A25F79ED30039E509;
+			productRefGroup = B04A28A425F79ED30039E509 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B04A28A225F79ED30039E509 /* FuelCheck */,
+				B04A28B325F79ED50039E509 /* FuelCheckTests */,
+				B04A28BE25F79ED50039E509 /* FuelCheckUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B04A28A125F79ED30039E509 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B04A28AE25F79ED50039E509 /* Preview Assets.xcassets in Resources */,
+				B04A28AB25F79ED50039E509 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B04A28B225F79ED50039E509 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B04A28BD25F79ED50039E509 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B04A289F25F79ED30039E509 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B04A28A925F79ED30039E509 /* ContentView.swift in Sources */,
+				B04A28A725F79ED30039E509 /* FuelCheckApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B04A28B025F79ED50039E509 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B04A28B925F79ED50039E509 /* FuelCheckTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B04A28BB25F79ED50039E509 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B04A28C425F79ED50039E509 /* FuelCheckUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B04A28B625F79ED50039E509 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B04A28A225F79ED30039E509 /* FuelCheck */;
+			targetProxy = B04A28B525F79ED50039E509 /* PBXContainerItemProxy */;
+		};
+		B04A28C125F79ED50039E509 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B04A28A225F79ED30039E509 /* FuelCheck */;
+			targetProxy = B04A28C025F79ED50039E509 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B04A28C625F79ED50039E509 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B04A28C725F79ED50039E509 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B04A28C925F79ED50039E509 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"FuelCheck/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = FuelCheck/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.app.FuelCheck;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B04A28CA25F79ED50039E509 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"FuelCheck/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = FuelCheck/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.app.FuelCheck;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B04A28CC25F79ED50039E509 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FuelCheckTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.app.FuelCheckTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FuelCheck.app/FuelCheck";
+			};
+			name = Debug;
+		};
+		B04A28CD25F79ED50039E509 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FuelCheckTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.app.FuelCheckTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FuelCheck.app/FuelCheck";
+			};
+			name = Release;
+		};
+		B04A28CF25F79ED50039E509 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FuelCheckUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.app.FuelCheckUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FuelCheck;
+			};
+			name = Debug;
+		};
+		B04A28D025F79ED50039E509 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FuelCheckUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.app.FuelCheckUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FuelCheck;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B04A289E25F79ED30039E509 /* Build configuration list for PBXProject "FuelCheck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B04A28C625F79ED50039E509 /* Debug */,
+				B04A28C725F79ED50039E509 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B04A28C825F79ED50039E509 /* Build configuration list for PBXNativeTarget "FuelCheck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B04A28C925F79ED50039E509 /* Debug */,
+				B04A28CA25F79ED50039E509 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B04A28CB25F79ED50039E509 /* Build configuration list for PBXNativeTarget "FuelCheckTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B04A28CC25F79ED50039E509 /* Debug */,
+				B04A28CD25F79ED50039E509 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B04A28CE25F79ED50039E509 /* Build configuration list for PBXNativeTarget "FuelCheckUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B04A28CF25F79ED50039E509 /* Debug */,
+				B04A28D025F79ED50039E509 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B04A289B25F79ED30039E509 /* Project object */;
+}
